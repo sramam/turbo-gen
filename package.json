@@ -2,11 +2,10 @@
   "name": "turbo-gen",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "dist/index.js",
   "types": "dist/types.d.ts",
   "bin": {
-    "turbo-gen": "dist/cli.js"
+    "turbo-gen": "dist/cli.cjs"
   },
   "files": [
     "dist"
