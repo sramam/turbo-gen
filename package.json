@@ -2,7 +2,14 @@
   "name": "turbo-gen",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/types.d.ts",
+  "bin": {
+    "turbo-gen": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "test": "jest",
@@ -48,8 +55,5 @@
     "ts-jest": "^27.1.1",
     "tsup": "^6.7.0",
     "typescript": "^4.5.5"
-  },
-  "files": [
-    "dist"
-  ]
+  }
 }
